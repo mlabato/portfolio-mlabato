@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       fontFamily: {
         "montserrat": ["'Montserrat'"]
+      },
+      backgroundImage: {
+        "profile-picture": "url('/public/images/profile-image.jpeg')",
+        
       }
     },
   },
