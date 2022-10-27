@@ -2,6 +2,7 @@ import Title from "../ux/Title";
 import { SiJavascript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import {SiFirebase} from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 
@@ -11,6 +12,7 @@ const icons = [
   <SiTailwindcss title="Tailwind.css" />,
   <SiMysql title="MySQL" />,
   <FaNodeJs title="NodeJS" />,
+  <SiFirebase title="Firebase" />,
 ];
 const iteratedIcons = icons.map((icon) => {
   return <div className="mr-[0.8rem] hover:text-[#84A98C]">{icon}</div>;
