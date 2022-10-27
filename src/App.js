@@ -1,8 +1,13 @@
+import { Fragment } from "react";
+import Navbar from "./components/sections/Navbar";
+
+
+
 function App() {
   return (
-    <div className="text-red-400">
-        
-    </div>
+    <section className="font-montserrat bg-[#CAD2C5] h-screen">
+      <Navbar />
+    </section>
   );
 }
 
