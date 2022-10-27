@@ -1,2 +1,1 @@
-# portfolio-mlabato
-Personal portfolio
+# Personal portfolio
