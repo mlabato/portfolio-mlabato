@@ -3,8 +3,8 @@ import { FaRegEye } from "react-icons/fa";
 
 const WorkCard = (props) => {
   return (
-    <article className="flex flex-row mb-[10rem] mt-[1rem] relative">
-      <div className="w-[45%] mb-[5rem] text-justify">
+    <article className="flex flex-row mb-[10rem] mt-[2rem] relative">
+      <div className="w-[45%] mb-[6rem] text-justify">
         <div className="text-[#84A98C] text-[22px] font-semibold">
           {props.name}
         </div>
@@ -24,9 +24,10 @@ const WorkCard = (props) => {
           </div>
         </div>
       </div>
+      <div className="absolute border-2 border-[#354F52] mx-[4rem] -right-[15rem] top-[1.2rem] w-[30rem] h-[15rem] hover:-right-[14.8rem] hover:top-[1rem] ease-in-out duration-300 rounded-xl my-auto" />
       <div
         className={
-          "bg-cover h-[15rem] rounded-xl w-[30rem] absolute -right-[10rem] z-0 shadow-xl shadow-[#354F52] " +
+          "bg-cover h-[15rem] rounded-xl w-[30rem] absolute -right-[10rem] z-0 " +
           props.image
         }
       />
