@@ -4,16 +4,18 @@ import AboutSection from "./components/sections/AboutSection";
 import ContactIcons from "./components/ux/ContactIcons";
 import WorksSection from "./components/sections/WorksSection";
 import ContactSection from "./components/sections/ContactSection";
-
+import Footer from "./components/sections/Footer";
 
 function App() {
   return (
-    <section className="font-montserrat bg-[#CAD2C5] h-[3000px] ">
+    <section className="font-montserrat bg-[#CAD2C5] h-[2350px] ">
       <Navbar />
       <IntroSection />
       <AboutSection />
       <WorksSection />
       <ContactSection />
+      <Footer />
+
       <ContactIcons />
     </section>
   );
