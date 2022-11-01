@@ -2,7 +2,7 @@ import Title from "../ux/Title";
 import { SiJavascript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import {SiFirebase} from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 
@@ -14,13 +14,16 @@ const icons = [
   <FaNodeJs title="NodeJS" />,
   <SiFirebase title="Firebase" />,
 ];
-const iteratedIcons = icons.map((icon) => {
-  return <div className="mr-[0.8rem] hover:text-[#84A98C]">{icon}</div>;
+const iteratedIcons = icons.map((icon, i) => {
+  return <div className="mr-[0.8rem] hover:text-[#84A98C]" key={i}>{icon}</div>;
 });
 
 const AboutSection = () => {
+
+
   return (
-    <article className="mx-[20rem] relative top-[30rem]">
+    <article
+      className="mx-[20rem] relative top-[30rem] animate-opacityChangeX">
       <Title text={"about"} />
       <div className="flex flex-row my-[1rem]">
         <p className="w-2/3 text-justify">
@@ -36,7 +39,6 @@ const AboutSection = () => {
         <div className="absolute border-2 border-[#354F52] mx-[4rem] -right-[7rem] top-[6.5rem] w-[13rem] h-[13rem] hover:-right-[6.8rem] hover:top-[6.2rem] ease-in-out duration-300 rounded-xl my-auto" />
 
         <div className="absolute bg-profile-picture bg-cover w-[13rem] h-[13rem] -right-[2rem] top-[5.3rem] rounded-xl " />
-
       </div>
 
       <p className="w-3/5  text-justify">

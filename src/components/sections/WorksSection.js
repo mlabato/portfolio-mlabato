@@ -1,7 +1,7 @@
 import Title from "../ux/Title";
 import WorkCard from "../ux/WorkCard";
 
-const WorksSection = () => {
+const WorksSection = (props) => {
 
 const workList = [
   {
@@ -29,14 +29,15 @@ const workList = [
 ]
 
 
+
   return(
-    <article className="mx-[20rem] my-[5rem] relative top-[30rem]">
+    <article className="mx-[20rem] my-[5rem] relative top-[30rem] ">
         <Title text={"some things i have built"} />
         
         {
-          workList.map(work =>{
+          workList.map((work, i) =>{
             return(
-              <WorkCard name= {work.name} description={work.description} tech={work.tech} website={work.website} github={work.website} image={work.image}/>
+              <WorkCard name= {work.name} description={work.description} tech={work.tech} website={work.website} github={work.website} image={work.image} key={i}/>
             )
           })
         }
