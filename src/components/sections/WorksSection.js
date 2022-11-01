@@ -20,18 +20,18 @@ const workList = [
   },
   {
     name: "MR Studio",
-    description: "Landing page with contact form linked to Firebase.",
+    description: "Responsive landing page with contact form linked to Firebase database.",
     tech: "React + Tailwind + Firebase",
     image: "bg-landing-mr",
     github: "https://github.com/mlabato/mr-studio",
     website: "https://mr-studio.vercel.app/"
   }
 ]
-
+ 
 
 
   return(
-    <article className="mx-[20rem] my-[5rem] relative top-[30rem] ">
+    <article className="mx-[1.75rem] desktop:mx-[20rem] my-[5rem] relative top-[30rem] desktop:top-[30rem] ">
         <Title text={"some things i have built"} />
         
         {
