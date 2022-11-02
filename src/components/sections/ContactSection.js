@@ -9,7 +9,7 @@ const ContactSection = (props) => {
 
 
   return (
-    <article className=" mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] my-[5rem] relative notebook:top-[42rem] desktop:top-[32rem] flex flex-col" >
+    <article className=" mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[22rem] my-[5rem] relative notebook:top-[42rem] desktop:top-[32rem] flex flex-col" >
       <Title text={"let's talk!"} />
       <p className="text-[#354F52] text-[0.8rem] desktop:text-[1rem] my-[1rem] text-justify">
         As I previosly said, while I keep strengthening my skills, I'm keen on
