@@ -8,7 +8,7 @@ const IntroSection = () => {
         Martin Labato
       </div>
 
-      <div className="absolute  top-[3rem]  notebook:top-[4.5rem] desktop:top-[5.5rem] font-extrabold text-[2.18rem] notebook:text-[3.4rem] desktop:text-[3.4rem]  text-[#354F52]">
+      <div className="absolute  top-[3rem]  notebook:top-[4.5rem] desktop:top-[5.5rem] font-extrabold text-[2.18rem] notebook:text-[3.4rem] desktop:text-[3.3rem]  text-[#354F52]">
         I build experiences
       </div>
 
