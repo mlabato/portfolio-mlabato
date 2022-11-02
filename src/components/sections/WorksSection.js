@@ -31,7 +31,7 @@ const workList = [
 
 
   return(
-    <article className="mx-[1.75rem] desktop:mx-[20rem] my-[5rem] relative top-[30rem] desktop:top-[30rem] ">
+    <article className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] my-[5rem] relative top-[30rem] notebook:top-[40rem] desktop:top-[30rem] ">
         <Title text={"some things i have built"} />
         
         {

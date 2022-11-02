@@ -10,7 +10,7 @@ const Navbar = () => {
       <a
         href="google.com"
         key={i}
-        className="mx-[1rem] text-[#52796F] font-semibold hover:text-[#354F52] hover:font-bold ease-in-out duration-500 animate-appear"
+        className="mx-[1rem] text-[#52796F] font-semibold hover:text-[#354F52] hover:font-bold ease-in-out duration-500 animate-appear notebook:text-[0.9rem]"
       >
         {" "}
         {title}
@@ -48,15 +48,15 @@ const Navbar = () => {
   return (
     <section>
     <article
-      className={`hidden desktop:flex mx-[10rem] h-[5rem]  items-center justify-end fixed top-0 left-0 right-0 ${
+      className={`hidden notebook:flex notebook:mx-[10rem] h-[5rem]  items-center justify-end fixed top-0 left-0 right-0 ${
         visible ? "" : "-top-20 "
       } ease-out duration-500`}
     >
       
       {titlesIteration}
-      <Button text={<a href="resume.pdf"  target="_blank">Resume</a>} classes={"animate-appear"} />
+      <Button text={<a href="resume.pdf"  target="_blank">Resume</a>} classes={"animate-appear notebook:text-[0.9rem]"} />
     </article>
-    <article className=" desktop:hidden  flex flex-col items-end mx-[1.75rem] py-[1rem]">
+    <article className=" notebook:hidden desktop:hidden  flex flex-col items-end mx-[1.75rem] py-[1rem]">
       {!showNav && <GiHamburgerMenu className="text-[2rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
       {showNav && <AiOutlineClose className="text-[2rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
 

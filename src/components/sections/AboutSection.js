@@ -15,15 +15,16 @@ const icons = [
   <SiFirebase title="Firebase" />,
 ];
 const iteratedIcons = icons.map((icon, i) => {
-  return <div className="mr-[0.8rem] hover:text-[#84A98C]" key={i}>{icon}</div>;
+  return (
+    <div className="mr-[0.8rem] hover:text-[#84A98C]" key={i}>
+      {icon}
+    </div>
+  );
 });
 
 const AboutSection = () => {
-
-
   return (
-    <article
-      className="mx-[1.75rem] desktop:mx-[20rem] relative top-[20rem] desktop:top-[30rem] animate-opacityChangeX">
+    <article className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] relative top-[25rem] desktop:top-[30rem] animate-opacityChangeX">
       <Title text={"about me"} />
       <div className="flex desktop:flex-row my-[0.5rem] desktop:my-[1rem]">
         <p className=" text-[0.8rem] desktop:w-2/3 desktop:text-[1rem] text-justify">
@@ -36,9 +37,16 @@ const AboutSection = () => {
           been working with recently:
         </p>
 
-        <div className="absolute border-2 border-[#354F52] mx-[4rem] desktop:-right-[7rem] desktop:top-[6.5rem] w-[10rem] h-[10rem] top-[21.5rem] -right-[0.1rem] desktop:w-[13rem] desktop:h-[13rem] desktop:hover:-right-[6.8rem] desktop:hover:top-[6.2rem] ease-in-out duration-300 rounded-xl my-auto" />
+        <div
+          className="absolute border-2 border-[#354F52] mx-[4rem] rounded-xl my-auto
+          top-[21.5rem] -right-[0.1rem] notebook:top-[17.5rem] notebook:right-[4.5rem] desktop:-right-[7rem] desktop:top-[6.5rem] 
+          w-[10rem] h-[10rem] notebook:w-[12rem] notebook:h-[12rem] desktop:w-[13rem] desktop:h-[13rem]
+              desktop:hover:-right-[6.8rem] desktop:hover:top-[6.2rem] ease-in-out duration-300 "
+        />
 
-        <div className="absolute bg-profile-picture bg-cover w-[10rem] h-[10rem] desktop:w-[13rem] desktop:h-[13rem] top-[21rem] right-[4.5rem]     desktop:-right-[2rem] desktop:top-[5.3rem] rounded-xl " />
+        <div className="absolute bg-profile-picture bg-cover  rounded-xl
+        w-[10rem] h-[10rem] notebook:w-[12rem] notebook:h-[12rem] desktop:w-[13rem] desktop:h-[13rem] 
+        top-[21rem] right-[4.5rem] notebook:top-[17rem] notebook:right-[9rem] desktop:-right-[2rem] desktop:top-[5.3rem]  " />
       </div>
 
       <p className="text-[0.8rem] desktop:w-3/5 desktop:text-[1rem]  text-justify">
