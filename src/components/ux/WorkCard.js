@@ -30,12 +30,12 @@ const WorkCard = (props) => {
 
       <div
         className={
-          "absolute   bg-cover  rounded-xl notebook:h-[11rem] notebook:w-[22rem] desktop:h-[12rem] desktop:w-[24rem]  opacity-20 notebook:opacity-100 notebook:-right-[5rem] notebook:top-[0.75rem] desktop:-right-[3rem] desktop:top-0  top-[2rem] z-20 " +
+          "absolute   bg-cover  rounded-xl h-[11rem] w-[21rem] desktop:h-[12rem] desktop:w-[24rem]  opacity-20 notebook:opacity-100 notebook:-right-[5rem] notebook:top-[0.75rem] desktop:-right-[3rem] desktop:top-0  top-[2rem] z-20 " +
           props.image
         }
       />
       <div className="absolute hidden notebook:block border-2 border-[#354F52] mx-[4rem] 
-      notebook:h-[11rem] notebook:w-[22rem]  desktop:h-[12rem]  desktop:w-[24rem] 
+      notebook:h-[11rem] notebook:w-[21rem]  desktop:h-[11rem]  desktop:w-[24rem] 
       notebook:-right-[10rem] notebook:top-[1.75rem]   desktop:-right-[8rem] desktop:top-[1.3rem] 
       notebook:hover:-right-[9.5rem] notebook:hover:top-[1.2rem] desktop:hover:-right-[7.7rem] desktop:hover:top-[1rem] ease-in-out duration-300 rounded-xl my-auto" />
     </article>
