@@ -15,7 +15,7 @@ const workList = [
   {
     name: "Outlet de Mates",
     description: "An e-commerce, which includes product browser, cart and e-payment methods. It also offers an admin dashboard with auth to manage stock and products. ",
-    tech: "Express + React + MySQL + MercadoPago",
+    tech: "Express + React + MySQL + MP",
     image: "bg-odm-app"
   },
   {
@@ -31,7 +31,7 @@ const workList = [
 
 
   return(
-    <article id="works" className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] full:mx-[25rem] my-[5rem] relative top-[37rem] notebook:top-[40rem] desktop:top-[30rem] full:top-[55rem] ">
+    <article id="works" className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] full:mx-[25rem] my-[5rem] relative top-[34rem] notebook:top-[40rem] desktop:top-[30rem] full:top-[55rem] ">
         <Title text={"some things i have built"} />
         
         {

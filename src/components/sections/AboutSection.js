@@ -24,7 +24,7 @@ const iteratedIcons = icons.map((icon, i) => {
 
 const AboutSection = () => {
   return (
-    <article id="about" className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] full:mx-[25rem] relative top-[25rem] desktop:top-[30rem] full:top-[50rem] animate-opacityChangeX">
+    <article id="about" className="mx-[1.75rem] notebook:mx-[15rem] desktop:mx-[20rem] full:mx-[25rem] relative top-[20rem] desktop:top-[30rem] full:top-[50rem] animate-opacityChangeX">
       <Title text={"about me"} />
       <div className="flex desktop:flex-row my-[0.5rem] desktop:my-[1rem]">
         <p className=" text-[0.8rem] desktop:w-2/3 desktop:text-[1rem] full:text-[1.6rem] text-justify">
@@ -44,7 +44,7 @@ const AboutSection = () => {
               desktop:hover:-right-[6.8rem] desktop:hover:top-[6.2rem] ease-in-out duration-300 "
         />
 
-        <div className="absolute bg-profile-picture bg-cover  rounded-xl
+        <div className="absolute  bg-profile-picture bg-cover  rounded-xl
         w-[10rem] h-[10rem] notebook:w-[12rem] notebook:h-[12rem] desktop:w-[13rem] desktop:h-[13rem] full:w-[17rem] full:h-[17rem]
         top-[21rem] right-[6rem] notebook:top-[17rem] notebook:right-[9rem] desktop:-right-[2rem] desktop:top-[5.3rem]  " />
       </div>
