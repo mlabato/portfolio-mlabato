@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <section className="font-montserrat bg-[#CAD2C5] w-full h-[2200px] desktop:h-[2550px]">
+    <section className="font-montserrat bg-[#CAD2C5] w-full h-[2200px] desktop:h-[2550px] full:h-[3650px]">
       <Navbar />
       <IntroSection />
       <AboutSection />
