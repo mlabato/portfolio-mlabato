@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <section>
     <article
-      className={`hidden notebook:flex notebook:mx-[10rem] desktop:mx-[20rem] full:mx-[30rem] h-[5rem] full:h-[9rem] items-center justify-end fixed top-0 left-0 right-0 ${
+      className={`hidden notebook:flex notebook:mx-[10rem] desktop:mx-[17rem] full:mx-[30rem] h-[5rem] full:h-[9rem] items-center justify-end fixed top-0 left-0 right-0 ${
         visible ? "" : "-top-20 "
       } ease-out duration-500`}
     >
