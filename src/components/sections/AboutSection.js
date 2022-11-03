@@ -39,14 +39,14 @@ const AboutSection = () => {
 
         <div
           className="absolute border-2 border-[#354F52] mx-[4rem] rounded-xl my-auto
-          top-[21.5rem] -right-[0.1rem] notebook:top-[17.5rem] notebook:right-[4.5rem] desktop:-right-[7rem] desktop:top-[6.5rem]  full:w-[17rem] full:h-[17rem]
+          top-[21.5rem] right-[1.2rem] notebook:top-[17.5rem] notebook:right-[4.5rem] desktop:-right-[7rem] desktop:top-[6.5rem]  full:w-[17rem] full:h-[17rem]
           w-[10rem] h-[10rem] notebook:w-[12rem] notebook:h-[12rem] desktop:w-[13rem] desktop:h-[13rem]
               desktop:hover:-right-[6.8rem] desktop:hover:top-[6.2rem] ease-in-out duration-300 "
         />
 
         <div className="absolute bg-profile-picture bg-cover  rounded-xl
         w-[10rem] h-[10rem] notebook:w-[12rem] notebook:h-[12rem] desktop:w-[13rem] desktop:h-[13rem] full:w-[17rem] full:h-[17rem]
-        top-[21rem] right-[4.5rem] notebook:top-[17rem] notebook:right-[9rem] desktop:-right-[2rem] desktop:top-[5.3rem]  " />
+        top-[21rem] right-[6rem] notebook:top-[17rem] notebook:right-[9rem] desktop:-right-[2rem] desktop:top-[5.3rem]  " />
       </div>
 
       <p className="text-[0.8rem] desktop:w-3/5 desktop:text-[1rem] full:text-[1.6rem]  text-justify">

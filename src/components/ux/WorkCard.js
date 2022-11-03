@@ -4,7 +4,7 @@ import { FaRegEye } from "react-icons/fa";
 const WorkCard = (props) => {
   return (
     <article className="flex flex-row mb-[10rem] mt-[1rem] notebook:mt-[2rem] relative">
-      <div className=" notebook:w-[45%] mb-[2rem] notebook:mb-[3rem] desktop:mb-[7rem] full:mb-[15rem] notebook:text-justify ">
+      <div className=" notebook:w-[45%] mb-[4rem] notebook:mb-[3rem] desktop:mb-[7rem] full:mb-[15rem] notebook:text-justify ">
         <div className="text-[#84A98C] text-[1.2rem]  notebook:text-[1.4rem] full:text-[2.3rem] font-semibold ml-[0.75rem] notebook:ml-0">
           {props.name}
         </div>
@@ -30,7 +30,7 @@ const WorkCard = (props) => {
 
       <div
         className={
-          "absolute   bg-cover  rounded-xl h-[11rem] w-[21rem] desktop:h-[12rem] desktop:w-[24rem]  full:h-[20rem] full:w-[40rem] opacity-20 notebook:opacity-100 notebook:-right-[5rem] notebook:top-[0.75rem] desktop:-right-[3rem] desktop:top-0  top-[2rem] z-20 " +
+          "absolute   bg-cover  rounded-xl h-[12rem] w-[22rem] desktop:h-[12rem] desktop:w-[24rem]  full:h-[20rem] full:w-[40rem] opacity-20 notebook:opacity-100 notebook:-right-[5rem] notebook:top-[0.75rem] desktop:-right-[3rem] desktop:top-0  top-[2rem] z-20 " +
           props.image
         }
       />

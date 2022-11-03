@@ -61,7 +61,7 @@ const Navbar = () => {
       {showNav && <AiOutlineClose className="text-[2rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
 
 
-      <div className={!showNav ? "mx-auto absolute top-[4rem] right-[3rem] ease-in-out duration-300" : "mx-auto absolute top-[4rem] -right-[20rem] ease-in-out duration-300"}>
+      <div className={showNav ? "mx-auto absolute top-[4rem] right-[3rem] ease-in-out duration-300 flex flex-row" : " flex flex-row absolute top-[4rem]  right-full  ease-in-out duration-300 "}>
         {titlesIteration}
         
       </div>
