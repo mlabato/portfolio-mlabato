@@ -33,8 +33,7 @@ const AboutSection = () => {
           LLM degrees. However, in 2021 I pursued a wish I had for a long time:
           learn to code. I started a full stack developer bootcamp at Digital
           House and I discovered that I really liked it. That led on starting to
-          think in a big change in my career. Here are a few technologies I’ve
-          been working with recently:
+          think in a big change in my career. 
         </p>
 
         <div

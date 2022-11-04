@@ -48,7 +48,7 @@ const WorkCard = (props) => {
       <div
         className="absolute hidden notebook:block border-2 border-[#354F52] mx-[4rem] 
       notebook:h-[11rem] notebook:w-[21rem]  desktop:h-[11rem]  desktop:w-[24rem]  full:h-[20rem] full:w-[40rem]
-      notebook:-right-[6.5rem] notebook:top-[1.75rem]   desktop:-right-[8rem] desktop:top-[1.7rem] 
+      notebook:-right-[6.5rem] notebook:top-[1.75rem]   desktop:-right-[8rem] bigdesktop:-right-[4rem] full:-right-[9rem] desktop:top-[1.7rem] 
       notebook:hover:-right-[6rem] notebook:hover:top-[1.2rem] desktop:hover:-right-[7.7rem] desktop:hover:top-[1.4rem] ease-in-out duration-300 rounded-xl my-auto"
       />
     </article>
