@@ -49,7 +49,7 @@ const Navbar = () => {
     <section>
     <article
       className={`hidden notebook:flex  mx-[5rem] desktop:mx-[10rem] h-[5rem] full:h-[9rem] items-center justify-end fixed top-0 left-0 right-0 ${
-        visible ? "" : "-top-20 "
+        visible ? "" : "-top-[7rem] "
       } ease-out duration-500`}
     >
       
