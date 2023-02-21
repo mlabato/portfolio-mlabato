@@ -88,7 +88,7 @@ const WorkCard = (props) => {
 
   const iteratedIcons = workList[currentIndex].tech.map((icon, i) => {
     return (
-      <div className=" mr-[.7rem] desktop:mr-[1.3rem] desktop:text-[1.7rem]" key={i}>
+      <div className=" mr-[.7rem] desktop:mr-[1.3rem] notebook:text-[1.2rem] desktop:text-[1.7rem]" key={i}>
         {icon}
       </div>
     );
@@ -103,18 +103,18 @@ const WorkCard = (props) => {
           alt=""
         />
 
-        <div className="absolute bottom-[1rem] desktop:bottom-[2rem] mx-[.7rem] desktop:mx-[3rem] z-40 w-[90%] ">
-          <p className="text-[1rem] desktop:text-[2.3rem] font-bold text-[#84A98C] ">
+        <div className="absolute bottom-[1rem] notebook:bottom-[1.5rem] desktop:bottom-[2rem] mx-[.7rem] notebook:mx-[2rem] desktop:mx-[3rem] z-40 w-[90%] ">
+          <p className="text-[1rem] notebook:text-[1.75rem] desktop:text-[2.3rem] font-bold text-[#84A98C] ">
             {workList[currentIndex].name}
           </p>
-          <p className="text-[.7rem] desktop:text-[1.3rem]  font-medium   pb-[.5rem] desktop:pb-[1rem] text-white">
+          <p className="text-[.7rem] notebook:text-[1rem] desktop:text-[1.3rem]  font-medium   pb-[.5rem] desktop:pb-[1rem] text-white">
             {workList[currentIndex].description}
           </p>
-          <div className="flex flex-row items-center pb-[.5rem] desktop:pb-[1rem] text-[#84A98C]">
+          <div className="flex flex-row items-center pb-[.5rem] notebook:pb-[.75rem] desktop:pb-[1rem] text-[#84A98C]">
             {iteratedIcons}
           </div>
           
-          <a href={workList[currentIndex].website} alt="" className=" "><FaLink className=" desktop:text-[2rem] mx-auto text-white hover:text-[#84A98C]" /></a>
+          <a href={workList[currentIndex].website} alt="" className=" "><FaLink className=" notebook:text-[1.5rem] desktop:text-[2rem] mx-auto text-white hover:text-[#84A98C]" /></a>
         </div>
       
 
