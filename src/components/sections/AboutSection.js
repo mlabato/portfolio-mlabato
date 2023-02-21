@@ -44,7 +44,7 @@ const AboutSection = () => {
         <img
           src="/images/profile-image.jpeg"
           alt=""
-          className=" w-[10rem] mx-auto notebook:w-[15rem] notebook:h-[15rem]  desktop:w-[20rem] rounded-xl z-50"
+          className=" w-[10rem] mx-auto notebook:w-[15rem] notebook:h-[15rem]  desktop:w-[20rem] desktop:h-[20rem] rounded-xl z-50"
         />
         <div className="relative z-10">
           <div
