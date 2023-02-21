@@ -5,12 +5,6 @@ module.exports = {
       fontFamily: {
         montserrat: ["'Montserrat'"],
       },
-      backgroundImage: {
-        "profile-picture": "url('/public/images/profile-image.jpeg')",
-        "twitter-app": "url('/public/images/twitter-app.jpg')",
-        "odm-app": "url('/public/images/odm-app.jpg')",
-        "landing-mr": "url('/public/images/landing-mr.jpg')",
-      },
       keyframes: {
         appear: {
           "from": { transform: "translateY(-100%)" },

@@ -8,7 +8,7 @@ const WorksSection = (props) => {
 
 
   return(
-    <article id="works" className="mx-[10rem] pt-[10rem]  ">
+    <article id="works" className=" px-[2rem] desktop:px-[10rem] py-[2.5rem] desktop:py-[6rem] bg-white ">
         <Title text={"some things i have built"} />
         
   

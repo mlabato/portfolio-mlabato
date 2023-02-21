@@ -24,10 +24,10 @@ const iteratedIcons = icons.map((icon, i) => {
 
 const AboutSection = () => {
   return (
-    <article id="about" className="mx-[10rem] pt-[15rem] animate-opacityChangeX ">
+    <article id="about" className="px-[2rem] desktop:px-[10rem] py-[2.5rem] desktop:py-[6rem] animate-opacityChangeX bg-white ">
       <Title text={"about me"} />
-      <div className="flex flex-row items-center my-[1rem] ">
-        <div className=" text-[1.2rem] w-2/3 mr-[2rem]">
+      <div className="flex flex-col notebook:flex-row  my-[1rem] ">
+        <div className="text-[.7rem] desktop:text-[1.2rem] desktop:w-2/3 mr-[2rem]">
           I’m not the typical web developer, because I’m 32 and since 2011 I
           have been working as legal counsellor, after obtaining both law and
           LLM degrees. However, in 2021 I pursued a wish I had for a long time:
@@ -44,14 +44,14 @@ const AboutSection = () => {
         <img
           src="/images/profile-image.jpeg"
           alt=""
-          className="w-[20rem] rounded-xl z-50"
+          className=" w-[10rem] mx-auto desktop:w-[20rem] rounded-xl z-50"
         />
         <div className="relative z-10">
           <div
-            className="absolute border-2 border-[#354F52] mx-[4rem] rounded-xl my-auto
-         -right-[5rem]    -top-[9rem]
-          w-[20rem] h-[20rem] 
-              desktop:hover:-right-[4.75rem] desktop:hover:-top-[9.25rem] ease-in-out duration-300 "
+            className="absolute hidden notebook:block border-2 border-[#354F52] desktop:mx-[4rem] rounded-xl my-auto
+         right-[4.5rem] desktop:-right-[5rem]   -top-[9.5rem] desktop:top-[1rem]
+          w-[10rem] desktop:w-[20rem] h-[10rem] desktop:h-[20rem] 
+              desktop:hover:-right-[4.75rem] desktop:hover:top-[.75rem] ease-in-out duration-300 "
           />
         </div>
       </div>

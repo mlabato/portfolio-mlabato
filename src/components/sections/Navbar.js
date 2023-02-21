@@ -57,13 +57,13 @@ const Navbar = () => {
       <Button text={<a href="resume.pdf"  target="_blank">resume</a>} classes={"animate-appear notebook:text-[0.9rem] full:text-[1.5rem]"} />
     </article>
     <article className=" notebook:hidden desktop:hidden  flex flex-col items-end mx-[1.75rem] py-[1rem]">
-      {!showNav && <GiHamburgerMenu className="text-[2rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
-      {showNav && <AiOutlineClose className="text-[2rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
+      {!showNav && <GiHamburgerMenu className="text-[1.5rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
+      {showNav && <AiOutlineClose className="text-[1.5rem] text-[#52796F] rounded-xl  " onClick={mobileNavbarHandler}/>}
 
 
-      <div className={showNav ? "mx-auto absolute top-[4rem] right-[3rem] ease-in-out duration-300 flex flex-row" : " flex flex-row absolute top-[4rem]  right-full  ease-in-out duration-300 "}>
+      <div className={showNav ? "mx-auto absolute top-[4rem] right-[4rem] ease-in-out duration-300 text-[.7rem] flex flex-row items-center" : " flex flex-row absolute items-center top-[4rem] text-[.7rem] right-full  ease-in-out duration-300 "}>
         {titlesIteration}
-        
+        <Button text={<a href="resume.pdf"  target="_blank">resume</a>} classes={"animate-appear notebook:text-[0.9rem] full:text-[1.5rem]"} />
       </div>
 
     </article>
